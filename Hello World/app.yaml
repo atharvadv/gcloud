@@ -1,0 +1,2 @@
+runtime: python312  # Specify the Python version
+entrypoint: gunicorn -b :$PORT main:app # Tell App Engine how to start your app
